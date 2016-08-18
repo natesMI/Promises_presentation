@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Nate's Async Weather</title>
+	  <link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+
+		<div id="container">
+	    <h1>Nate's Async Weather</h1>
+
+	    <div id="days">
+	    	<h3>San Francisco 5 day forecast</h3>
+	    </div>
+
+	  </div>
+    <script 
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+	  <script src="Promises_presentation_2.js"></script>
+	  <script src="Promises_presentation_3.js"></script>
+	  <script src="Promises_presentation_4.js"></script>
+
+	  <script>
+
+	  	$(document).ready(function(){
+
+	      App_A.displayForecast();
+	      
+	      //App_B.displayForecast();
+
+	    });
+
+	  </script>
+	</body>
+</html>
