@@ -12,5 +12,9 @@
   script tags, will toggle between a standard API call
   and a Promisified one.
 
-- Accompanying slides can be found [here](https://docs.google.com/a/makersquare.com/presentation/d/1DhzGLatUrQcex6HXKRdQsoZou_DZjrEJEhdgLQGpv1w/edit?usp=sharing)
+- Accompanying slides can be found [here](https://docs.google.com/a/makersquare.com/presentation/d/1DhzGLatUrQcex6HXKRdQsoZou_DZjrEJEhdgLQGpv1w/edit?usp=sharing).
+
+- If you would like to expand upon this, in lieu of repeatedly 
+  calling the API during development, you can use the data
+  inside of forecast.json
 
